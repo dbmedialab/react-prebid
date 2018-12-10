@@ -202,7 +202,6 @@ export default class Advertising {
             pubads.setTargeting(key, value);
         }
         pubads.disableInitialLoad();
-        pubads.enableSingleRequest();
 
         window.googletag.enableServices();
         this[displaySlots]();
